@@ -114,7 +114,7 @@ export function Simulation() {
   return (
     <Section id="simulation" className="max-w-7xl">
       <Chapter
-        num="12"
+        num="11"
         kicker="Interactive Demo"
         title="College Cloud Storage — Live Simulation"
         tagline="A working feel of the S3 console: browse prefixes, inspect objects, upload a file."

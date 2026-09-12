@@ -25,7 +25,7 @@ export function ProsCons() {
   return (
     <Section id="pros-cons">
       <Chapter
-        num="14"
+        num="13"
         kicker="Honest Evaluation"
         title="Advantages vs Limitations"
         tagline="A good engineer names the trade-offs, not just the wins."

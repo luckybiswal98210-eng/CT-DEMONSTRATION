@@ -27,7 +27,7 @@ export function Cost() {
   return (
     <Section id="cost">
       <Chapter
-        num="11"
+        num="10"
         kicker="Cost Model"
         title="How Much Does It Cost?"
         tagline="There is no single fixed price — S3 is usage-based, and that is the point."

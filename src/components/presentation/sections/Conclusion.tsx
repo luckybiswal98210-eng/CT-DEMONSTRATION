@@ -12,7 +12,7 @@ export function Conclusion() {
   return (
     <Section id="conclusion" className="max-w-5xl text-center">
       <p className="mb-14 font-mono text-xs uppercase tracking-[0.35em] text-slate-500">
-        16 — Conclusion
+        14 — Conclusion
       </p>
 
       <div className="space-y-6">

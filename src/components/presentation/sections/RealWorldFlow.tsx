@@ -49,7 +49,7 @@ export function RealWorldFlow() {
   return (
     <Section id="real-world">
       <Chapter
-        num="13"
+        num="12"
         kicker="One Complete Request"
         title="What Happens When I Click Upload?"
         tagline="Watch certificate.pdf travel from a student's laptop into the bucket — step by step, with realistic latency."

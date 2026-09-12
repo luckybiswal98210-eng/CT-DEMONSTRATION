@@ -13,12 +13,10 @@ import { Download } from "@/components/presentation/sections/Download";
 import { Security } from "@/components/presentation/sections/Security";
 import { Lifecycle } from "@/components/presentation/sections/Lifecycle";
 import { Performance } from "@/components/presentation/sections/Performance";
-import { Monitoring } from "@/components/presentation/sections/Monitoring";
 import { Cost } from "@/components/presentation/sections/Cost";
 import { Simulation } from "@/components/presentation/sections/Simulation";
 import { RealWorldFlow } from "@/components/presentation/sections/RealWorldFlow";
 import { ProsCons } from "@/components/presentation/sections/ProsCons";
-import { Summary } from "@/components/presentation/sections/Summary";
 import { Conclusion } from "@/components/presentation/sections/Conclusion";
 
 export default function Home() {
@@ -111,12 +109,10 @@ export default function Home() {
         <Security />
         <Lifecycle />
         <Performance />
-        <Monitoring />
         <Cost />
         <Simulation />
         <RealWorldFlow />
         <ProsCons />
-        <Summary />
         <Conclusion />
       </main>
     </div>
