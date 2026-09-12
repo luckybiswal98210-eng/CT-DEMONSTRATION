@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 screen_*.png
 v_*.png
+.vercel
+.env*.local
