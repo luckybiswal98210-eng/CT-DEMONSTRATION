@@ -1,5 +1,5 @@
 import { motion, useScroll, useSpring } from "framer-motion";
-import { Cloud, Maximize, Minimize, Presentation } from "lucide-react";
+import { Cloud, FileDown, Maximize, Minimize, Presentation } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { SectionDef } from "./sections";
 import { cn } from "@/lib/utils";
@@ -86,6 +86,18 @@ export function Chrome({
       )}
 
       <div className="fixed bottom-5 right-5 z-50 flex items-center gap-2">
+        <a
+          data-testid="download-pdf-button"
+          href="/Amazon-S3-Presentation.pdf"
+          download="Cloud-Storage-using-Amazon-S3.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Download Presentation PDF"
+          className="flex h-10 items-center gap-2 rounded-full border border-aws/40 bg-slate-950/80 px-3.5 font-mono text-xs font-semibold text-aws backdrop-blur transition-all hover:bg-aws hover:text-slate-950 shadow-[0_0_15px_rgba(255,153,0,0.2)]"
+        >
+          <FileDown className="h-4 w-4" />
+          <span>PDF</span>
+        </a>
         <button
           data-testid="fullscreen-toggle"
           onClick={toggleFullscreen}
